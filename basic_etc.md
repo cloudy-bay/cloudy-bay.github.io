@@ -1,0 +1,18 @@
+# uuid란?
+> uuid(Universally Unique IDentifier) : 네트워크 상에서 고유성이 보장되는 id를 만들기 위한 표준 규약
+> UUID는 다음과 같이 32개의 16진수로 구성되며 5개의 그룹으로 표시되고 각 그룹은 붙임표(-)로 구분한다.
+> `280a8a4d-a27f-4d01-b031-2a003cc4c039`
+
+- 주로 분산 컴퓨팅 환경에서 사용되는 식별자
+- UUID 버전에는 1, 3, 4, 5 등 총 4가지가 있다. 
+  - 이 중 많이 쓰이는 것은 버전 1과 4이다. 
+  - 버전 1은 타임스탬프를 기준으로 생성하는 방식
+  - 버전 4는 랜덤 생성 방식이다. 
+  - 버전 3과 5는 각각 MD5, SHA-1 해시를 이용해 생성하는 방식이다.
+- python 에서 uuid(GUID) 생성방법)
+  - 간단히 uuid 를 import 해서 사용한다. 
+```
+import uuid
+url = 'https://github.com/cloudy-bay/cloudy-bay.github.io/'
+print(uuid.uuid1())
+```
