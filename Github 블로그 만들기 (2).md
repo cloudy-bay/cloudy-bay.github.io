@@ -21,4 +21,21 @@
 - 다운로드 받은 파일을 압축해제 한다.
 - Local git repository에 복사한다
   - ex
-    - ![image-20230311020201567](C:\Users\yoojin\AppData\Roaming\Typora\typora-user-images\image-20230311020201567.png)
+    - 다운받은 테마 소스 복사
+    
+    - ![image-20230311020201567](assets/image-20230311020201567.png)
+    
+    - Local git repository에 복사
+    
+    - 겹치는 파일 존재할 경우 덮어쓰기 적용
+    
+    - ![image-20230311020949633](assets/image-20230311020949633.png)
+    
+    - jekyll command 입력
+    
+      - ```bash
+        bundle install
+        jekyll 
+        ```
+    
+      - 
