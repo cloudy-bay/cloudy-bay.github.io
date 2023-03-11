@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Welcome to Jekyll2!"
+date:   2023-03-11 00:16:26 +0900
+categories: jekyll update
+---
+
 # Github 블로그 만들기(2)
 
 - window 환경
