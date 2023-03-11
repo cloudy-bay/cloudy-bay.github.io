@@ -60,10 +60,31 @@
     
         - 해결방법
     
-        Jekyll 에서 사용되는 liquid가 `{{`와 `}}`를 escape 문자로 사용합니다. 문서에 {{, }} 가 들어 있는 경우 jekyll engine이 경고 메시지를 출력하고, {{ … }} 사이에 있는 내용은 무시된다. 
+          후, 엄청 삽질했다. 
     
-        해당 내용을 liquid parsing을 하지 않기 위해서는 문장 앞뒤로 다음과 같은 `{% raw %}, { %endraw% }` `tag를 추가해 주면 warning과 출력 문제를 해결할 수 있다.
+          아래의 경로에 따르면, `jekyll-include-cache` plugin이 없으면 위와같은 error 가 발생한다고 한다.
     
-        ![img](assets/K4a5+.png)
+          https://mmistakes.github.io/minimal-mistakes/docs/installation/
     
+          > **Note:** The theme uses the [jekyll-include-cache](https://github.com/benbalter/jekyll-include-cache) plugin which will need to be installed in your `Gemfile` and added to the `plugins` array of `_config.yml`. Otherwise you’ll throw `Unknown tag 'include_cached'` errors at build.
         
+          - Gemfile 을 열어서 plugin 설치 구문을 적어주고 다시 `bundle install > bundle exec jekyll serve`  명령어를 입력한다.
+          - ![image-20230311115910647](assets/image-20230311115910647.png)
+        
+          ```bash
+          # If you have any plugins, put them here!
+          group :jekyll_plugins do
+            gem "jekyll-feed", "~> 0.12"
+            gem "jekyll-include-cache" # 이 부분 추기!
+          end
+          ```
+        
+        - 결과
+        
+          - 127.0.0.1:4000 으로 접근하면 테마가 적용 된 것을 확인 가능하다... 감동...😥
+          - ![image-20230311120012666](assets/image-20230311120012666.png)
+        
+        
+        - 이제 내 블로그 테마로 적용하기 위해 git push 한다.
+        - 
+
