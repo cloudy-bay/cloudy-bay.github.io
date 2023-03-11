@@ -2,9 +2,8 @@
 layout: post
 title:  "Github 블로그 만들기(1)"
 date:   2023-03-11 00:16:26 +0900
-categories: jekyll update
+categories: Dev ETC github
 ---
-
 - 나도 따라하면서 쓰는 완전 초보 가이드
 - window 환경
 
@@ -48,14 +47,14 @@ categories: jekyll update
 
 - 새로운 repository 생성
 
-  - ![image-20230309003717319](assets/image-20230309003717319-1678468029181-3.png)
+  - ![image-20230309003717319](../assets/image-20230309003717319-1678468029181-3.png)
 
   - Repository 이름은 `{username}.github.io` 이런식으로 지어준다. (공식문서에 따르면, 다를 경우 문제가 생길 수 있다고 한다.)
   - 생성 시 `Add a README File` check
 
 - 생성된 repository git clone
 
-  - ![image-20230309004204000](assets/image-20230309004204000-1678468029182-4.png)
+  - ![image-20230309004204000](../assets/image-20230309004204000-1678468029182-4.png)
 
 - 설치한 git bash 실행
 
@@ -94,7 +93,7 @@ categories: jekyll update
 
       로컬PC 경로에 파일 잘 만들어졌는지 확인
 
-      ![image-20230309004713300](assets/image-20230309004713300.png)
+      ![image-20230309004713300](../assets/image-20230309004713300.png)
 
 - git push
 
@@ -105,6 +104,7 @@ categories: jekyll update
     ```
 
     - [👀](https://www.daleseo.com/git-add/)`git add` 는 작업 디렉토리(working directory) 상의 변경 내용을 스테이징 영역(stagig area) 에 추가하기 위해서 사용하는 git 명령어 
+
     - [👀](https://www.daleseo.com/git-push/)`git push` 는 원격 저장소(remote repository)에 변경분을 업로드 하기 위해 사용하는 git 명령어 
 
     - ex
@@ -135,7 +135,7 @@ categories: jekyll update
       - git remote repository 에 변경분 반영된 것 확인 가능
         - 위에 clone 할 때 이미 index.html이 있는데 글 쓰기 전에 이미 push까지 해놔서 그렇다...ㅎㅎ
 
-      ![image-20230309005904225](assets/image-20230309005904225.png)
+      ![image-20230309005904225](../assets/image-20230309005904225.png)
 
 - 인터넷 주소창에 {username}.github.io 를 입력해서 창이 잘 뜨는지 확인
 
@@ -152,6 +152,7 @@ categories: jekyll update
 ## 2.1 Ruby 설치
 
 - jekyll 을 사용하기 위해서는 Ruby가 필요하다
+
   - [👀Ruby](https://namu.wiki/w/Ruby) 언어 : 간결함과 생산성을 강조한 동적인 오픈소스 프로그래밍 언어. 스크립트 언어의 일종
   - jekyll : 정적인 웹사이트 생성기로, Ruby 언어를 기반으로 제작되었으며 마크다운 방식으로 글쓰기가 가능.
 
@@ -207,7 +208,6 @@ categories: jekyll update
   - ex
 
     - ```bash
-      
       C:\Users\yoojin\cloudy-bay.github.io>bundle exec jekyll serve
       Configuration file: C:/Users/yoojin/cloudy-bay.github.io/_config.yml
                   Source: C:/Users/yoojin/cloudy-bay.github.io
@@ -296,7 +296,7 @@ categories: jekyll update
 
       - 주소창에 server 주소 입력 후 접속 확인
 
-        <img src="../assets/image-20230311011236532.png" alt="image-20230311011236532" style="zoom:50%;" />
+        <img src="assets/image-20230311011236532.png" alt="image-20230311011236532" style="zoom:50%;" />
 
 - git push
 
@@ -343,7 +343,7 @@ categories: jekyll update
 
     - `https://{본인github username}.github.io/` 이용해서 접속해 잘 적용됐는지 확인하기
 
-      - ![image-20230311011843429](assets/image-20230311011843429.png)
+      - ![image-20230311011843429](../assets/image-20230311011843429.png)
 
 
 
