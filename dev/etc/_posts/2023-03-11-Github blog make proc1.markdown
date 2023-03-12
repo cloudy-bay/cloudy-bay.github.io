@@ -145,7 +145,7 @@ categories: etc github
     https://cloudy-bay.github.io/
     ```
 
-  - <img src="assets/image-20230309010149836.png" alt="image-20230309010149836" style="zoom:50%;" />
+  - <img src="/assets/image-20230309010149836.png" alt="image-20230309010149836" style="zoom:50%;" />
 
 ## 2. jekyll
 
@@ -296,7 +296,7 @@ categories: etc github
 
       - 주소창에 server 주소 입력 후 접속 확인
 
-        <img src="assets/image-20230311011236532.png" alt="image-20230311011236532" style="zoom:50%;" />
+        <img src="/assets/image-20230311011236532.png" alt="image-20230311011236532" style="zoom:50%;" />
 
 - git push
 

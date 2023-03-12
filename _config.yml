@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:                여전히 날이 좋다
+tagline:                바란다고 되지 않아. 해야지. 잡아야지.
 
 # A list of keywords for your blog
 keywords:              []
@@ -37,7 +37,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/KakaoTalk_20230312_205919021.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-12T20:17:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Cloudy Bay Log</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-12T21:01:53+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Cloudy Bay Log</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
 </subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">python</title><link href="http://localhost:4000/dev/python/basic/2023-03-11-python_basic/" rel="alternate" type="text/html" title="python" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-12T19:42:26+09:00</updated><id>http://localhost:4000/dev/python/basic/python_basic</id><content type="html" xml:base="http://localhost:4000/dev/python/basic/2023-03-11-python_basic/">&lt;h2 id=&quot;initpy&quot;&gt;&lt;strong&gt;init&lt;/strong&gt;.py&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;init&lt;/strong&gt;.py 는 해당 디렉터리가 패키지의 일부임을 알려주는 역할을 한다.
@@ -127,7 +127,7 @@ Configuration file: C:/Users/yoojin/cloudy-bay.github.io/_config.yml
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="etc" /><category term="github" /><summary type="html">window 환경 Github 블로그 만들기(1) 글 후행</summary></entry><entry><title type="html">Github 블로그 만들기(1)</title><link href="http://localhost:4000/dev/etc/github/2023-03-11-Github-blog-make-proc1/" rel="alternate" type="text/html" title="Github 블로그 만들기(1)" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-12T19:44:53+09:00</updated><id>http://localhost:4000/dev/etc/github/Github%20blog%20make%20proc1</id><content type="html" xml:base="http://localhost:4000/dev/etc/github/2023-03-11-Github-blog-make-proc1/">&lt;ul&gt;
+&lt;/ul&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="etc" /><category term="github" /><summary type="html">window 환경 Github 블로그 만들기(1) 글 후행</summary></entry><entry><title type="html">Github 블로그 만들기(1)</title><link href="http://localhost:4000/dev/etc/github/2023-03-11-Github-blog-make-proc1/" rel="alternate" type="text/html" title="Github 블로그 만들기(1)" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-12T20:46:37+09:00</updated><id>http://localhost:4000/dev/etc/github/Github%20blog%20make%20proc1</id><content type="html" xml:base="http://localhost:4000/dev/etc/github/2023-03-11-Github-blog-make-proc1/">&lt;ul&gt;
   &lt;li&gt;나도 따라하면서 쓰는 완전 초보 가이드&lt;/li&gt;
   &lt;li&gt;window 환경&lt;/li&gt;
 &lt;/ul&gt;
@@ -322,7 +322,7 @@ branch &lt;span class=&quot;s1&quot;&gt;&apos;main&apos;&lt;/span&gt; &lt;span c
         &lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://cloudy-bay.github.io/
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;img src=&quot;assets/image-20230309010149836.png&quot; alt=&quot;image-20230309010149836&quot; style=&quot;zoom:50%;&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;/assets/image-20230309010149836.png&quot; alt=&quot;image-20230309010149836&quot; style=&quot;zoom:50%;&quot; /&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -496,7 +496,7 @@ Run &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;verbose mode to see all warn
               &lt;li&gt;
                 &lt;p&gt;주소창에 server 주소 입력 후 접속 확인&lt;/p&gt;
 
-                &lt;p&gt;&lt;img src=&quot;assets/image-20230311011236532.png&quot; alt=&quot;image-20230311011236532&quot; style=&quot;zoom:50%;&quot; /&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;img src=&quot;/assets/image-20230311011236532.png&quot; alt=&quot;image-20230311011236532&quot; style=&quot;zoom:50%;&quot; /&gt;&lt;/p&gt;
               &lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
