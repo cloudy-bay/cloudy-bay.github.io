@@ -47,14 +47,14 @@ categories: Dev ETC github
 
 - 새로운 repository 생성
 
-  - ![image-20230309003717319](../assets/image-20230309003717319-1678468029181-3.png)
+  - ![image-20230309003717319](/assets/image-20230309003717319-1678468029181-3.png)
 
   - Repository 이름은 `{username}.github.io` 이런식으로 지어준다. (공식문서에 따르면, 다를 경우 문제가 생길 수 있다고 한다.)
   - 생성 시 `Add a README File` check
 
 - 생성된 repository git clone
 
-  - ![image-20230309004204000](../assets/image-20230309004204000-1678468029182-4.png)
+  - ![image-20230309004204000](/assets/image-20230309004204000-1678468029182-4.png)
 
 - 설치한 git bash 실행
 
@@ -93,7 +93,7 @@ categories: Dev ETC github
 
       로컬PC 경로에 파일 잘 만들어졌는지 확인
 
-      ![image-20230309004713300](../assets/image-20230309004713300.png)
+      ![image-20230309004713300](/assets/image-20230309004713300.png)
 
 - git push
 
@@ -135,7 +135,7 @@ categories: Dev ETC github
       - git remote repository 에 변경분 반영된 것 확인 가능
         - 위에 clone 할 때 이미 index.html이 있는데 글 쓰기 전에 이미 push까지 해놔서 그렇다...ㅎㅎ
 
-      ![image-20230309005904225](../assets/image-20230309005904225.png)
+      ![image-20230309005904225](/assets/image-20230309005904225.png)
 
 - 인터넷 주소창에 {username}.github.io 를 입력해서 창이 잘 뜨는지 확인
 
@@ -343,7 +343,7 @@ categories: Dev ETC github
 
     - `https://{본인github username}.github.io/` 이용해서 접속해 잘 적용됐는지 확인하기
 
-      - ![image-20230311011843429](../assets/image-20230311011843429.png)
+      - ![image-20230311011843429](/assets/image-20230311011843429.png)
 
 
 

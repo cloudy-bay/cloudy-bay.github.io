@@ -30,13 +30,13 @@ categories: Dev ETC github
 
     - 다운받은 테마 소스 복사
 
-    - ![image-20230311020201567](../assets/image-20230311020201567.png)
+  - ![image-20230311020201567](/assets/image-20230311020201567.png)
 
     - Local git repository에 복사
 
     - 겹치는 파일 존재할 경우 덮어쓰기 적용
 
-    - ![image-20230311020949633](../assets/image-20230311020949633.png)
+    - ![image-20230311020949633](/assets/image-20230311020949633.png)
 
     - jekyll command 입력
 
@@ -64,6 +64,12 @@ categories: Dev ETC github
                               ------------------------------------------------
           ```
 
-        - 
+        - 아래의 문서에 따르면, `Gemfile` 에 아래의 gem  설치 plugin을 넣어주어야 한다.
 
+          - ![image-20230311135828764](/assets/image-20230311135828764.png)
+          - plugin 명령어 입력
+            - 
+        
+        
+           
         
