@@ -363,9 +363,9 @@ plugins:
 # Used on index and about sites
 # social:
 #   name:                <firstname> <lastname>
-   links:
+#   links:
 #     - https://twitter.com/<username>
-     - https://github.com/cloudy-bay
+#     - https://github.com/cloudy-bay
 
 
 # Plugin Configs
