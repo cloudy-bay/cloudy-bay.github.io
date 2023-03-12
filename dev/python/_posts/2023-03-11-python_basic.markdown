@@ -2,7 +2,7 @@
 layout: post
 title:  "Python Basic"
 date:   2023-03-11 00:16:26 +0900
-categories: Dev python basic
+categories: python basic
 ---
 
 # python
