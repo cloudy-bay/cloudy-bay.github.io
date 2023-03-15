@@ -1,9 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-12T21:01:53+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Cloudy Bay Log</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">python</title><link href="http://localhost:4000/dev/python/basic/2023-03-11-python_basic/" rel="alternate" type="text/html" title="python" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-12T19:42:26+09:00</updated><id>http://localhost:4000/dev/python/basic/python_basic</id><content type="html" xml:base="http://localhost:4000/dev/python/basic/2023-03-11-python_basic/">&lt;h2 id=&quot;initpy&quot;&gt;&lt;strong&gt;init&lt;/strong&gt;.py&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-15T21:47:31+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Cloudy Bay Log</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">Pandas</title><link href="http://localhost:4000/dev/python/basic/pandas/2023-03-15-python_pandas/" rel="alternate" type="text/html" title="Pandas" /><published>2023-03-15T00:16:26+09:00</published><updated>2023-03-15T21:46:46+09:00</updated><id>http://localhost:4000/dev/python/basic/pandas/python_pandas</id><content type="html" xml:base="http://localhost:4000/dev/python/basic/pandas/2023-03-15-python_pandas/">&lt;h2 id=&quot;padasqcut&quot;&gt;padas.qcut&lt;/h2&gt;
+
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;init&lt;/strong&gt;.py 는 해당 디렉터리가 패키지의 일부임을 알려주는 역할을 한다.
-python version 3.3 이후부터는 작성하지 않아도 패키지임을 인식하지만, 그 이전 버전에서는 꼭 있어야 인식한다. 따라서, 호환성을 위해 작성해주도록 하자.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="python" /><category term="basic" /><summary type="html">init.py init.py 는 해당 디렉터리가 패키지의 일부임을 알려주는 역할을 한다. python version 3.3 이후부터는 작성하지 않아도 패키지임을 인식하지만, 그 이전 버전에서는 꼭 있어야 인식한다. 따라서, 호환성을 위해 작성해주도록 하자.</summary></entry><entry><title type="html">uuid란?</title><link href="http://localhost:4000/dev/etc/2023-03-11-basic_etc/" rel="alternate" type="text/html" title="uuid란?" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-12T19:47:53+09:00</updated><id>http://localhost:4000/dev/etc/basic_etc</id><content type="html" xml:base="http://localhost:4000/dev/etc/2023-03-11-basic_etc/">&lt;blockquote&gt;
+  &lt;p&gt;pandas.qcut(x,q,labels=None, retains=False,precision=3,duplicates=’raise’)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;같은 개수로 구간 나누기&lt;/li&gt;
+  &lt;li&gt;데이터를 빈도수에 따라 나눌 때 사용&lt;/li&gt;
+  &lt;li&gt;x :이산화를 수행할 배열을 입력받는다.(1차원)&lt;/li&gt;
+  &lt;li&gt;q : int 혹은 float의 list-like 자료형을 입력받는다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="python" /><category term="basic" /><category term="pandas" /><summary type="html">padas.qcut</summary></entry><entry><title type="html">uuid란?</title><link href="http://localhost:4000/dev/etc/2023-03-11-basic_etc/" rel="alternate" type="text/html" title="uuid란?" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-12T19:47:53+09:00</updated><id>http://localhost:4000/dev/etc/basic_etc</id><content type="html" xml:base="http://localhost:4000/dev/etc/2023-03-11-basic_etc/">&lt;blockquote&gt;
   &lt;p&gt;uuid(Universally Unique IDentifier) : 네트워크 상에서 고유성이 보장되는 id를 만들기 위한 표준 규약
 UUID는 다음과 같이 32개의 16진수로 구성되며 5개의 그룹으로 표시되고 각 그룹은 붙임표(-)로 구분한다.
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;280a8a4d-a27f-4d01-b031-2a003cc4c039&lt;/code&gt;&lt;/p&gt;
@@ -29,105 +36,7 @@ print(uuid.uuid1())
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="etc" /><summary type="html">uuid(Universally Unique IDentifier) : 네트워크 상에서 고유성이 보장되는 id를 만들기 위한 표준 규약 UUID는 다음과 같이 32개의 16진수로 구성되며 5개의 그룹으로 표시되고 각 그룹은 붙임표(-)로 구분한다. 280a8a4d-a27f-4d01-b031-2a003cc4c039</summary></entry><entry><title type="html">Github 블로그 만들기(2)</title><link href="http://localhost:4000/dev/etc/github/2023-03-11-Github-blog-make-proc2/" rel="alternate" type="text/html" title="Github 블로그 만들기(2)" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-12T19:44:56+09:00</updated><id>http://localhost:4000/dev/etc/github/Github%20blog%20make%20proc2</id><content type="html" xml:base="http://localhost:4000/dev/etc/github/2023-03-11-Github-blog-make-proc2/">&lt;ul&gt;
-  &lt;li&gt;window 환경&lt;/li&gt;
-  &lt;li&gt;Github 블로그 만들기(1) 글 후행&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;1-jekyll-테마-선택하기&quot;&gt;1. jekyll 테마 선택하기&lt;/h2&gt;
-
-&lt;h3 id=&quot;11-jekyll-theme-선택-사이트&quot;&gt;1.1 jekyll theme 선택 사이트&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://jamstackthemes.dev/ssg/jekyll/&quot;&gt;jamstackthemes.dev&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;jekyllthemes.org&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://jekyllthemes.io/&quot;&gt;jekyllthemes.io&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://jekyll-themes.com/&quot;&gt;jekyll-themes.com&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;들어가서 마음에 드는 테마를 선택하면 된다. 내가 선택한건 &lt;a href=&quot;https://jekyll-themes.com/hydejack/&quot;&gt;hydejack&lt;/a&gt; 테마(깔끔, 반응성.. 화려한 게 좋다 😉)&lt;/p&gt;
-
-&lt;h3 id=&quot;12-테마-적용하기&quot;&gt;1.2 테마 적용하기&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;다운로드 받은 파일을 압축해제 한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Local git repository에 복사한다&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;ex&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;다운받은 테마 소스 복사&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;img src=&quot;/assets/image-20230311020201567.png&quot; alt=&quot;image-20230311020201567&quot; /&gt;&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;p&gt;Local git repository에 복사&lt;/p&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;p&gt;겹치는 파일 존재할 경우 덮어쓰기 적용&lt;/p&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;p&gt;&lt;img src=&quot;/assets/image-20230311020949633.png&quot; alt=&quot;image-20230311020949633&quot; /&gt;&lt;/p&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;p&gt;jekyll command 입력&lt;/p&gt;
-
-            &lt;ul&gt;
-              &lt;li&gt;
-                &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;install
-&lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;                &lt;/div&gt;
-              &lt;/li&gt;
-              &lt;li&gt;
-                &lt;p&gt;❗ 설치하다보면 아래와 같은 Liquid Exception: Liquid syntax error 가 날 수 있다&lt;/p&gt;
-
-                &lt;ul&gt;
-                  &lt;li&gt;
-                    &lt;p&gt;ex&lt;/p&gt;
-
-                    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C:&lt;span class=&quot;se&quot;&gt;\U&lt;/span&gt;sers&lt;span class=&quot;se&quot;&gt;\y&lt;/span&gt;oojin&lt;span class=&quot;se&quot;&gt;\c&lt;/span&gt;loudy-bay.github.io&amp;gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
-Configuration file: C:/Users/yoojin/cloudy-bay.github.io/_config.yml
-            Source: C:/Users/yoojin/cloudy-bay.github.io
-       Destination: C:/Users/yoojin/cloudy-bay.github.io/_site
- Incremental build: disabled. Enable with &lt;span class=&quot;nt&quot;&gt;--incremental&lt;/span&gt;
-      Generating...
-       Jekyll Feed: Generating feed &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;posts
-  Liquid Exception: Liquid syntax error &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;C:/Users/yoojin/cloudy-bay.github.io/_includes/styles/style.scss line 17&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;: Unknown tag &lt;span class=&quot;s1&quot;&gt;&apos;include_cached&apos;&lt;/span&gt; included &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;assets/css/hydejack-9.1.6.css
-                    &lt;span class=&quot;nt&quot;&gt;------------------------------------------------&lt;/span&gt;
-      Jekyll 4.3.2   Please append &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--trace&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt; to the &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;serve&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;command
-                     &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;any additional information or backtrace.
-                    &lt;span class=&quot;nt&quot;&gt;------------------------------------------------&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;                    &lt;/div&gt;
-                  &lt;/li&gt;
-                  &lt;li&gt;
-                    &lt;p&gt;아래의 문서에 따르면, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; 에 아래의 gem  설치 plugin을 넣어주어야 한다.&lt;/p&gt;
-
-                    &lt;ul&gt;
-                      &lt;li&gt;&lt;img src=&quot;/assets/image-20230311135828764.png&quot; alt=&quot;image-20230311135828764&quot; /&gt;&lt;/li&gt;
-                      &lt;li&gt;
-                        &lt;h2 id=&quot;plugin-명령어-입력&quot;&gt;plugin 명령어 입력&lt;/h2&gt;
-                      &lt;/li&gt;
-                    &lt;/ul&gt;
-                  &lt;/li&gt;
-                &lt;/ul&gt;
-              &lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="etc" /><category term="github" /><summary type="html">window 환경 Github 블로그 만들기(1) 글 후행</summary></entry><entry><title type="html">Github 블로그 만들기(1)</title><link href="http://localhost:4000/dev/etc/github/2023-03-11-Github-blog-make-proc1/" rel="alternate" type="text/html" title="Github 블로그 만들기(1)" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-12T20:46:37+09:00</updated><id>http://localhost:4000/dev/etc/github/Github%20blog%20make%20proc1</id><content type="html" xml:base="http://localhost:4000/dev/etc/github/2023-03-11-Github-blog-make-proc1/">&lt;ul&gt;
+&lt;/ul&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="etc" /><summary type="html">uuid(Universally Unique IDentifier) : 네트워크 상에서 고유성이 보장되는 id를 만들기 위한 표준 규약 UUID는 다음과 같이 32개의 16진수로 구성되며 5개의 그룹으로 표시되고 각 그룹은 붙임표(-)로 구분한다. 280a8a4d-a27f-4d01-b031-2a003cc4c039</summary></entry><entry><title type="html">Github 블로그 만들기(1)</title><link href="http://localhost:4000/dev/etc/github/2023-03-11-Github-blog-make-proc1/" rel="alternate" type="text/html" title="Github 블로그 만들기(1)" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-12T20:46:37+09:00</updated><id>http://localhost:4000/dev/etc/github/Github%20blog%20make%20proc1</id><content type="html" xml:base="http://localhost:4000/dev/etc/github/2023-03-11-Github-blog-make-proc1/">&lt;ul&gt;
   &lt;li&gt;나도 따라하면서 쓰는 완전 초보 가이드&lt;/li&gt;
   &lt;li&gt;window 환경&lt;/li&gt;
 &lt;/ul&gt;
@@ -569,7 +478,283 @@ The most similar &lt;span class=&quot;nb&quot;&gt;command &lt;/span&gt;is
 &lt;ul&gt;
   &lt;li&gt;https://zeddios.tistory.com/1223&lt;/li&gt;
   &lt;li&gt;https://velog.io/@kimsoyeong/github.io-jekyll&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="etc" /><category term="github" /><summary type="html">나도 따라하면서 쓰는 완전 초보 가이드 window 환경</summary></entry><entry><title type="html">Docker 시작하기 (Window)</title><link href="http://localhost:4000/dev/docker/basic/2023-03-11-Docker-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="Docker 시작하기 (Window)" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-12T19:33:55+09:00</updated><id>http://localhost:4000/dev/docker/basic/Docker%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/dev/docker/basic/2023-03-11-Docker-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/">&lt;ul&gt;
+&lt;/ul&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="etc" /><category term="github" /><summary type="html">나도 따라하면서 쓰는 완전 초보 가이드 window 환경</summary></entry><entry><title type="html">Github 블로그 만들기(2)</title><link href="http://localhost:4000/dev/etc/github/2023-03-11-Github-blog-make-proc2/" rel="alternate" type="text/html" title="Github 블로그 만들기(2)" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-12T19:44:56+09:00</updated><id>http://localhost:4000/dev/etc/github/Github%20blog%20make%20proc2</id><content type="html" xml:base="http://localhost:4000/dev/etc/github/2023-03-11-Github-blog-make-proc2/">&lt;ul&gt;
+  &lt;li&gt;window 환경&lt;/li&gt;
+  &lt;li&gt;Github 블로그 만들기(1) 글 후행&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-jekyll-테마-선택하기&quot;&gt;1. jekyll 테마 선택하기&lt;/h2&gt;
+
+&lt;h3 id=&quot;11-jekyll-theme-선택-사이트&quot;&gt;1.1 jekyll theme 선택 사이트&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://jamstackthemes.dev/ssg/jekyll/&quot;&gt;jamstackthemes.dev&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;jekyllthemes.org&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://jekyllthemes.io/&quot;&gt;jekyllthemes.io&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://jekyll-themes.com/&quot;&gt;jekyll-themes.com&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;들어가서 마음에 드는 테마를 선택하면 된다. 내가 선택한건 &lt;a href=&quot;https://jekyll-themes.com/hydejack/&quot;&gt;hydejack&lt;/a&gt; 테마(깔끔, 반응성.. 화려한 게 좋다 😉)&lt;/p&gt;
+
+&lt;h3 id=&quot;12-테마-적용하기&quot;&gt;1.2 테마 적용하기&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;다운로드 받은 파일을 압축해제 한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Local git repository에 복사한다&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;ex&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;다운받은 테마 소스 복사&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;img src=&quot;/assets/image-20230311020201567.png&quot; alt=&quot;image-20230311020201567&quot; /&gt;&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;Local git repository에 복사&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;겹치는 파일 존재할 경우 덮어쓰기 적용&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;&lt;img src=&quot;/assets/image-20230311020949633.png&quot; alt=&quot;image-20230311020949633&quot; /&gt;&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;jekyll command 입력&lt;/p&gt;
+
+            &lt;ul&gt;
+              &lt;li&gt;
+                &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;install
+&lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;                &lt;/div&gt;
+              &lt;/li&gt;
+              &lt;li&gt;
+                &lt;p&gt;❗ 설치하다보면 아래와 같은 Liquid Exception: Liquid syntax error 가 날 수 있다&lt;/p&gt;
+
+                &lt;ul&gt;
+                  &lt;li&gt;
+                    &lt;p&gt;ex&lt;/p&gt;
+
+                    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C:&lt;span class=&quot;se&quot;&gt;\U&lt;/span&gt;sers&lt;span class=&quot;se&quot;&gt;\y&lt;/span&gt;oojin&lt;span class=&quot;se&quot;&gt;\c&lt;/span&gt;loudy-bay.github.io&amp;gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
+Configuration file: C:/Users/yoojin/cloudy-bay.github.io/_config.yml
+            Source: C:/Users/yoojin/cloudy-bay.github.io
+       Destination: C:/Users/yoojin/cloudy-bay.github.io/_site
+ Incremental build: disabled. Enable with &lt;span class=&quot;nt&quot;&gt;--incremental&lt;/span&gt;
+      Generating...
+       Jekyll Feed: Generating feed &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;posts
+  Liquid Exception: Liquid syntax error &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;C:/Users/yoojin/cloudy-bay.github.io/_includes/styles/style.scss line 17&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;: Unknown tag &lt;span class=&quot;s1&quot;&gt;&apos;include_cached&apos;&lt;/span&gt; included &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;assets/css/hydejack-9.1.6.css
+                    &lt;span class=&quot;nt&quot;&gt;------------------------------------------------&lt;/span&gt;
+      Jekyll 4.3.2   Please append &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--trace&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt; to the &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;serve&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;command
+                     &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;any additional information or backtrace.
+                    &lt;span class=&quot;nt&quot;&gt;------------------------------------------------&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;                    &lt;/div&gt;
+                  &lt;/li&gt;
+                  &lt;li&gt;
+                    &lt;p&gt;아래의 문서에 따르면, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; 에 아래의 gem  설치 plugin을 넣어주어야 한다.&lt;/p&gt;
+
+                    &lt;ul&gt;
+                      &lt;li&gt;&lt;img src=&quot;/assets/image-20230311135828764.png&quot; alt=&quot;image-20230311135828764&quot; /&gt;&lt;/li&gt;
+                      &lt;li&gt;
+                        &lt;h2 id=&quot;plugin-명령어-입력&quot;&gt;plugin 명령어 입력&lt;/h2&gt;
+                      &lt;/li&gt;
+                    &lt;/ul&gt;
+                  &lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="etc" /><category term="github" /><summary type="html">window 환경 Github 블로그 만들기(1) 글 후행</summary></entry><entry><title type="html">python</title><link href="http://localhost:4000/dev/python/basic/2023-03-11-python_basic/" rel="alternate" type="text/html" title="python" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-15T21:47:30+09:00</updated><id>http://localhost:4000/dev/python/basic/python_basic</id><content type="html" xml:base="http://localhost:4000/dev/python/basic/2023-03-11-python_basic/">&lt;h2 id=&quot;initpy&quot;&gt;&lt;strong&gt;init&lt;/strong&gt;.py&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;init&lt;/strong&gt;.py 는 해당 디렉터리가 패키지의 일부임을 알려주는 역할을 한다.
+python version 3.3 이후부터는 작성하지 않아도 패키지임을 인식하지만, 그 이전 버전에서는 꼭 있어야 인식한다. 따라서, 호환성을 위해 작성해주도록 하자.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;ospath&quot;&gt;os.path&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;os.path.basename(filename)
+    &lt;ul&gt;
+      &lt;li&gt;전달받은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;filename&lt;/code&gt;의 이름만을 출력한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;if&quot;&gt;if&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If not&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;조건문이 아닌 경우 실행문을 실행시킨다&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a_condition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;block_of_code_to_execute_if_condition_is_false&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;python 에서의&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;False&lt;/code&gt;값&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt;,&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0L&lt;/code&gt;,&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.0&lt;/code&gt;과 같은 숫자 0 값&lt;/li&gt;
+          &lt;li&gt;다음과 같은 빈 시퀀스 :
+            &lt;ul&gt;
+              &lt;li&gt;빈 목록 []&lt;/li&gt;
+              &lt;li&gt;빈 사전 {}&lt;/li&gt;
+              &lt;li&gt;빈 문자열 ‘’&lt;/li&gt;
+              &lt;li&gt;빈 튜플&lt;/li&gt;
+              &lt;li&gt;빈 세트&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;ex&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;job_description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;job&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;basename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sub_task&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;text&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;            &lt;/div&gt;
+
+            &lt;p&gt;job_description 이 비어있으면, 아래를 수행해라&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;file&quot;&gt;File&lt;/h2&gt;
+
+&lt;h3 id=&quot;file-생성하기&quot;&gt;File 생성하기&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;open&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;새파일.txt&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;w&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;close&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;open 함수는 다음과 같이 “파일 이름”과 “파일 열기 모드”를 입력값으로 받고 결괏값으로 파일 객체를 리턴한다.&lt;/p&gt;
+
+        &lt;blockquote&gt;
+          &lt;p&gt;파일 객체 = open(파일 이름, 파일 열기 모드)&lt;/p&gt;
+        &lt;/blockquote&gt;
+
+        &lt;p&gt;파일 열기 모드에는 다음과 같은 것들이 있다.&lt;/p&gt;
+
+        &lt;table&gt;
+          &lt;thead&gt;
+            &lt;tr&gt;
+              &lt;th style=&quot;text-align: left&quot;&gt;파일열기모드&lt;/th&gt;
+              &lt;th style=&quot;text-align: left&quot;&gt;설명&lt;/th&gt;
+            &lt;/tr&gt;
+          &lt;/thead&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td style=&quot;text-align: left&quot;&gt;r&lt;/td&gt;
+              &lt;td style=&quot;text-align: left&quot;&gt;읽기모드 - 파일을 읽기만 할 때 사용&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td style=&quot;text-align: left&quot;&gt;w&lt;/td&gt;
+              &lt;td style=&quot;text-align: left&quot;&gt;쓰기모드 - 파일에 내용을 쓸 때 사용&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td style=&quot;text-align: left&quot;&gt;a&lt;/td&gt;
+              &lt;td style=&quot;text-align: left&quot;&gt;추가모드 - 파일의 마지막에 새로운 내용을 추가 시킬 때 사용&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;file-read&quot;&gt;File read&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;readline() 함수&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;readlines() 함수&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;파일의 모든 줄을 읽어서 각각의 줄을 요소로 갖는 리스트를 리턴한다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sqlparse&quot;&gt;sqlparse&lt;/h2&gt;
+
+&lt;h2 id=&quot;list&quot;&gt;List&lt;/h2&gt;
+
+&lt;h3 id=&quot;join&quot;&gt;.join()&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;List를 문자열로 일정하게 합쳐주는 함수&lt;/p&gt;
+
+  &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;리스트&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&apos;구분자&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;리스트&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;&apos;.join(리스트)&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;매개변수로 들어온 리스트를 하나의 문자열로 합쳐준다.&lt;/li&gt;
+      &lt;li&gt;ex)  ‘‘.join([‘a’,’b’,’c’]) &amp;gt; ‘abc’&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;구분자&apos;.join(리스트)&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;매개변수로 들어온 리스트의 값과 값 사이에 ‘구분자’ 에 들어온 구분자를 넣어서 하나의 문자열로 합쳐준다.&lt;/li&gt;
+      &lt;li&gt;ex) ‘_‘.join([‘a’,’b’,’c’]) &amp;gt; ‘a_b_c’&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;zfill&quot;&gt;zfill()&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;파이썬 문자열 앞에서부터 0으로 채우기&lt;/p&gt;
+
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;zfill&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;ex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&quot;3&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;zfill&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;003&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;참고&quot;&gt;참고&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://wikidocs.net/26&lt;/li&gt;
+  &lt;li&gt;https://blockdmask.tistory.com/468&lt;/li&gt;
+  &lt;li&gt;https://buildmedia.readthedocs.org/media/pdf/sqlparse/latest/sqlparse.pdf&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="python" /><category term="basic" /><summary type="html">init.py init.py 는 해당 디렉터리가 패키지의 일부임을 알려주는 역할을 한다. python version 3.3 이후부터는 작성하지 않아도 패키지임을 인식하지만, 그 이전 버전에서는 꼭 있어야 인식한다. 따라서, 호환성을 위해 작성해주도록 하자.</summary></entry><entry><title type="html">Docker 시작하기 (Window)</title><link href="http://localhost:4000/dev/docker/basic/2023-03-11-Docker-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="Docker 시작하기 (Window)" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-12T19:33:55+09:00</updated><id>http://localhost:4000/dev/docker/basic/Docker%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/dev/docker/basic/2023-03-11-Docker-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/">&lt;ul&gt;
   &lt;li&gt;window 환경&lt;/li&gt;
 &lt;/ul&gt;
 

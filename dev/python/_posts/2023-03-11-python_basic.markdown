@@ -71,9 +71,9 @@ categories: python basic
 
 ### File read
 
-- readline 함수
+- readline() 함수
 
-- readlines 함수
+- readlines() 함수
 
   > 파일의 모든 줄을 읽어서 각각의 줄을 요소로 갖는 리스트를 리턴한다.
 
@@ -93,7 +93,7 @@ categories: python basic
 - `''.join(리스트)` 
   - 매개변수로 들어온 리스트를 하나의 문자열로 합쳐준다.
   - ex)  ''.join(['a','b','c']) > 'abc'
-- `'구분자'.join(리스트)
+- `'구분자'.join(리스트)`
   - 매개변수로 들어온 리스트의 값과 값 사이에 '구분자' 에 들어온 구분자를 넣어서 하나의 문자열로 합쳐준다.
   - ex) '_'.join(['a','b','c']) > 'a_b_c'
 
@@ -115,15 +115,3 @@ categories: python basic
 - https://wikidocs.net/26
 - https://blockdmask.tistory.com/468
 - https://buildmedia.readthedocs.org/media/pdf/sqlparse/latest/sqlparse.pdf
-
-
-
-
-
-결혼 3천
-
-축의 800
-
-빌려드린 돈 1000
-
-주식 1000
