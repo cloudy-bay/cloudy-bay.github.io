@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-15T21:47:31+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Cloudy Bay Log</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-15T22:43:02+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Cloudy Bay Log</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
 </subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">Pandas</title><link href="http://localhost:4000/dev/python/basic/pandas/2023-03-15-python_pandas/" rel="alternate" type="text/html" title="Pandas" /><published>2023-03-15T00:16:26+09:00</published><updated>2023-03-15T21:46:46+09:00</updated><id>http://localhost:4000/dev/python/basic/pandas/python_pandas</id><content type="html" xml:base="http://localhost:4000/dev/python/basic/pandas/2023-03-15-python_pandas/">&lt;h2 id=&quot;padasqcut&quot;&gt;padas.qcut&lt;/h2&gt;
 
 &lt;blockquote&gt;
@@ -754,7 +754,7 @@ python version 3.3 이후부터는 작성하지 않아도 패키지임을 인식
   &lt;li&gt;https://wikidocs.net/26&lt;/li&gt;
   &lt;li&gt;https://blockdmask.tistory.com/468&lt;/li&gt;
   &lt;li&gt;https://buildmedia.readthedocs.org/media/pdf/sqlparse/latest/sqlparse.pdf&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="python" /><category term="basic" /><summary type="html">init.py init.py 는 해당 디렉터리가 패키지의 일부임을 알려주는 역할을 한다. python version 3.3 이후부터는 작성하지 않아도 패키지임을 인식하지만, 그 이전 버전에서는 꼭 있어야 인식한다. 따라서, 호환성을 위해 작성해주도록 하자.</summary></entry><entry><title type="html">Docker 시작하기 (Window)</title><link href="http://localhost:4000/dev/docker/basic/2023-03-11-Docker-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="Docker 시작하기 (Window)" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-12T19:33:55+09:00</updated><id>http://localhost:4000/dev/docker/basic/Docker%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/dev/docker/basic/2023-03-11-Docker-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/">&lt;ul&gt;
+&lt;/ul&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="python" /><category term="basic" /><summary type="html">init.py init.py 는 해당 디렉터리가 패키지의 일부임을 알려주는 역할을 한다. python version 3.3 이후부터는 작성하지 않아도 패키지임을 인식하지만, 그 이전 버전에서는 꼭 있어야 인식한다. 따라서, 호환성을 위해 작성해주도록 하자.</summary></entry><entry><title type="html">Docker 시작하기 (Window)</title><link href="http://localhost:4000/dev/docker/basic/2023-03-11-Docker-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="Docker 시작하기 (Window)" /><published>2023-03-11T00:16:26+09:00</published><updated>2023-03-15T22:43:01+09:00</updated><id>http://localhost:4000/dev/docker/basic/Docker%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/dev/docker/basic/2023-03-11-Docker-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/">&lt;ul&gt;
   &lt;li&gt;window 환경&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -771,7 +771,6 @@ python version 3.3 이후부터는 작성하지 않아도 패키지임을 인식
 &lt;ul&gt;
   &lt;li&gt;도커 컨테이너는 가상화된 공간을 생성하기 위해 리눅스의 자체 기능인 chroot, namespace, cgroup을 사용함으로써 프로세스 단위의 격리 환경을 만들기 때문에 성능 소실이 거의 없다.&lt;/li&gt;
   &lt;li&gt;컨테이너에 필요한 커널은 호스트의 커널을 공유해 사용하고, 컨테이너 안에는 애플리케이션을 구동하는 데 필요한 라이브러리 및 실행파일만 존재해, 컨테이너를 이미지로 만들었을 때 이미지의 용량이 가상머신에 비해 대폭 줄어든다는 장점이 있다.&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
   &lt;li&gt;따라서, 도커 컨테이너를 이용할 경우 배포시간 및 성능 손실 단축이 거의 없다는 장점.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -794,12 +793,21 @@ python version 3.3 이후부터는 작성하지 않아도 패키지임을 인식
 
 &lt;h2 id=&quot;2-도커-엔진-설치&quot;&gt;2. 도커 엔진 설치&lt;/h2&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;도커는 다양한 운영체제에서 사용할 수 있으나, 리눅스 컨테이너를 제어하는 api를 go언어로 구현한 libcontainer를 사용하기 때문에 대부분의 리눅스 운영체제에서 사용할 수 있다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Docker Descktop for Windows 설치&lt;/li&gt;
-  &lt;li&gt;Hyper-V 가상화를 지원하는 64비트 환경의 윈도우 10 Pro, Enterprise, Home 운영체제 필요&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hyper-V 가상화를 지원하는 64비트 환경의 윈도우 10 Pro, Enterprise, Home 운영체제 필요&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;다운로드 :  https://docs.docker.com/desktop/install/windows-install/&lt;/p&gt;
 
-&lt;h3 id=&quot;2-1&quot;&gt;2-1.&lt;/h3&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="docker" /><category term="basic" /><summary type="html">window 환경</summary></entry><entry><title type="html">Introducing Hydejack 9</title><link href="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/" rel="alternate" type="text/html" title="Introducing Hydejack 9" /><published>2020-07-03T00:00:00+09:00</published><updated>2022-02-07T13:43:00+09:00</updated><id>http://localhost:4000/example/introducing-hydejack-9</id><content type="html" xml:base="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/">&lt;p class=&quot;lead&quot;&gt;Version 9 is the most complete version of Hydejack yet.&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;./assets/image-20230315224256094.png&quot; alt=&quot;image-20230315224256094&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="dev" /><category term="docker" /><category term="basic" /><summary type="html">window 환경</summary></entry><entry><title type="html">Introducing Hydejack 9</title><link href="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/" rel="alternate" type="text/html" title="Introducing Hydejack 9" /><published>2020-07-03T00:00:00+09:00</published><updated>2022-02-07T13:43:00+09:00</updated><id>http://localhost:4000/example/introducing-hydejack-9</id><content type="html" xml:base="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/">&lt;p class=&quot;lead&quot;&gt;Version 9 is the most complete version of Hydejack yet.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#linking-in-style&quot;&gt;Modernized&lt;/a&gt; &lt;a href=&quot;#whats-in-the-cards&quot;&gt;design&lt;/a&gt;, &lt;a href=&quot;#ready-for-the-big-screen&quot;&gt;big headlines&lt;/a&gt;, big new features: &lt;a href=&quot;#built-in-search&quot;&gt;Built-In Search&lt;/a&gt;, &lt;a href=&quot;#sticky-table-of-contents&quot;&gt;Sticky Table of Contents&lt;/a&gt;, and &lt;a href=&quot;#auto-hiding-navbar&quot;&gt;Auto-Hiding Navbar&lt;/a&gt;. That &lt;a href=&quot;#and-much-more&quot;&gt;and more&lt;/a&gt; is Hydejack 9.&lt;/p&gt;
 
