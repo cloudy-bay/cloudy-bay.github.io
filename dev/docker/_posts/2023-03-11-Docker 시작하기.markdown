@@ -39,7 +39,7 @@ categories: docker basic
 
 - 다운로드 :  https://docs.docker.com/desktop/install/windows-install/
 
-  ![image-20230315224256094](./assets/image-20230315224256094.png)
+  ![image-20230315224256094](/assets/image-20230315224256094.png)
 
 - 다운로드 받은 파일을 설치후 컴퓨터를 재부팅 하면 도커 설치 완료
 
@@ -66,7 +66,7 @@ categories: docker basic
 - 다운로드 경로
 
   - https://www.virtualbox.org/wiki/Downloads
-  - ![image-20230318194154965](./assets/image-20230318194154965.png)
+  - ![image-20230318194154965](/assets/image-20230318194154965.png)
 
   - 자신의 운영체제에 맞는 패키지를 설치한다.
 
@@ -75,4 +75,38 @@ categories: docker basic
 - 도커와 가장 잘 호환되며 관련 자료가 많은 건 우분투 이기 때문에 가상머신에 사용될 이미지 파일(.iso) 를 Ubuntu 로 선택하여 설치한다.
 - https://releases.ubuntu.com/20.04/
 - 데스크톱과 서버 버전이 있으나, 난 서버에 익숙해지기 위해 서버 버전을 선택하여 설치를 진행한다.
-- ![image-20230318194820524](./assets/image-20230318194820524.png)
+- ![image-20230318194820524](/assets/image-20230318194820524.png)
+
+### 3-3. 버추얼 박스에 우분투 이미지 설치
+
+- 설치한 Virtual Box 를 실행한다
+
+- 새로만들기(N) 을 선택한다
+
+- ![image-20230318212231915](/assets/image-20230318212231915.png)
+
+- 이름을 적당히 넣어주고, 위에서 다운받은 ubuntu image(.iso) 파일을 선택해준다
+
+  ![image-20230318212526118](/assets/image-20230318212526118.png)
+
+- 이후 과정 다 적당히 setting 
+
+- ![image-20230318213344925](/assets/image-20230318213344925.png)
+
+- ![image-20230318213428354](/assets/image-20230318213428354.png)
+
+- 기존 사용하던 Disk 를 넣을 수 있지만, 신규 생성으로 진행
+
+- ![image-20230318213501538](/assets/image-20230318213501538.png)
+
+- ![image-20230318213521380](/assets/image-20230318213521380.png)
+
+- ubuntu server 환경 설정 완료
+
+  ![image-20230318213633723](/assets/image-20230318213633723.png)
+
+# 참고
+
+---
+
+- https://blog.naver.com/alice_k106/220882666548

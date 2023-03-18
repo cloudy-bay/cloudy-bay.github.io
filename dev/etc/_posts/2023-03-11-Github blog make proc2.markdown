@@ -260,7 +260,10 @@ categories: etc github
 
 - 테마 적용 확인
 
-  - 자신의 github blog 주소로 접속해서 정상 배포되었는지 확인한다![image-20230318202122216](/assets/image-20230318202122216.png)
+  - 자신의 github blog 주소로 접속해서 정상 배포되었는지 확인한다
+  
+    ![image-20230318202122216](/assets/image-20230318202122216.png)
+  
   - `https://{본인github username}.github.io/` 이용
-
+  
   

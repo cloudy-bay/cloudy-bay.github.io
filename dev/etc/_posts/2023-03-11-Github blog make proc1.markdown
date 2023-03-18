@@ -148,10 +148,6 @@ categories: etc github
 
   - <img src="/assets/image-20230309010149836.png" alt="image-20230309010149836" style="zoom:50%;" />
 
-## 2. jekyll
-
-
-
 ## 99. 참고
 
 - https://zeddios.tistory.com/1223
