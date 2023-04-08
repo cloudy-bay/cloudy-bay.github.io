@@ -2,7 +2,7 @@
 layout: post
 title:  "AWS에 Docker 설치하기"
 date:   2023-04-01 00:16:26 +0900
-related_posts: /dev/docker/_posts/2023-03-18-Docker_start.md
+related_posts: /dev/docker/_posts/2023-03-18-Docker_start.md /dev/docker/_posts/2023-03-11-Docker_install.markdown
 categories: docker basic
 
 ---
@@ -13,7 +13,7 @@ categories: docker basic
 
 ## ssh 이용해서 터미널 접속하기
 
-- ![image-20230401235108554](./../../../assets/image-20230401235108554.png)
+- ![image-20230401235108554](/assets/image-20230401235108554.png)
 
   접속을 원하는 EC2의 '인스턴스 연결' 페이지에서 SSH 클라이언트 탭을 선택한다
 

@@ -49,8 +49,6 @@ categories: docker basic
 
 ### docker compose pull
 
-> 
-
 - 명령어
 
   - ```bash
