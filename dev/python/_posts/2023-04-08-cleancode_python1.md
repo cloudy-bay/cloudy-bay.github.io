@@ -23,8 +23,6 @@ categories: python basic cleancode
 > >
 > > 품질 좋은 소프트웨어를 개발하고, 견고하고 유지보수가 쉬운 시트메을 만들고, 기술 부채를 피하는 것
 
-
-
 # PEP-8 이란?
 
 > PEP 8 – Style Guide for Python Code

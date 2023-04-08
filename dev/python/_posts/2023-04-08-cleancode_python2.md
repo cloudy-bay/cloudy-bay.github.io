@@ -2,7 +2,7 @@
 layout: post
 title:  "문서화 (Documentation) - 파이썬 클린코드"
 date:   2023-04-08 00:16:26 +0900
-related_posts: /dev/python/_posts/2023-04-08-cleancode_python2.md
+related_posts: /dev/python/_posts/2023-04-08-cleancode_python1.md
 categories: python basic cleancode
 ---
 
@@ -24,7 +24,7 @@ categories: python basic cleancode
 
 # 문서화 (Documentation)
 
-> 피이썬은 변수의 타입이 동적이어 변수나 객체의 값이 무엇인지 잃어버리기 쉽기 때문에 문서화는 중요한 부분이다.
+> 파이썬은 변수의 타입이 동적이어 변수나 객체의 값이 무엇인지 잃어버리기 쉽기 때문에 문서화는 중요한 부분이다.
 
 ## 코드 주석(Code comments)
 
