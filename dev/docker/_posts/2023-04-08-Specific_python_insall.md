@@ -34,11 +34,11 @@ apt install -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-de
 
   https://www.python.org/ftp/python/
 
-  <img src="./../../../assets/image-20230408185206220.png" alt="image-20230408185206220" style="zoom:50%;" />
+  <img src="/assets/image-20230408185206220.png" alt="image-20230408185206220" style="zoom:50%;" />
 
 - 원하는 버전의 `.tgz` 파일위에서 **마우스 오른쪽 클릭 > 링크 주소 복사**
 
-  <img src="./../../../assets/image-20230408185451453.png" alt="image-20230408185451453" style="zoom:50%;" />
+  <img src="/assets/image-20230408185451453.png" alt="image-20230408185451453" style="zoom:50%;" />
 
 ## docker 에 python 설치
 
