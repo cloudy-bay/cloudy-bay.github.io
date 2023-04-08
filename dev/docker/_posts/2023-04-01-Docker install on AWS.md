@@ -140,5 +140,119 @@ root@ip-172-31-46-94:/home/ubuntu#
 
 ## 도커 컨테이너 목록 확인
 
+지금까지 생성한 컨테이너의 목록을 확인한다
+
+```bash
+docker ps
+```
+
+```bash
+root@ip-172-31-46-94:/home/ubuntu# docker ps
+CONTAINER ID   IMAGE          COMMAND       CREATED      STATUS      PORTS     NAMES
+39469faf121c   centos:7       "/bin/bash"   6 days ago   Up 6 days             mycontainer
+3c64614582c3   ubuntu:14.04   "/bin/bash"   6 days ago   Up 6 days             sleepy_easley
+```
+
+- `docker ps` 명령어는 정지되지 않은 컨테이너만 출력한다. 
+- 정지된 컨테이너를 포함한 모든 컨테이너를 출력하려면 `-a` 옵션을 준다.
+
+```bash
+docker ps -a
+```
+
+```bash
+root@ip-172-31-46-94:/home/ubuntu# docker ps -a
+CONTAINER ID   IMAGE          COMMAND       CREATED      STATUS                    PORTS     NAMES
+39469faf121c   centos:7       "/bin/bash"   6 days ago   Up 6 days                           mycontainer
+3c64614582c3   ubuntu:14.04   "/bin/bash"   6 days ago   Up 6 days                           sleepy_easley
+7f62c24d0fb7   ubuntu:14.04   "/bin/bash"   6 days ago   Exited (127) 6 days ago             gallant_rosalind
+```
+
+- STATUS 항목에서 컨테이너의 상태를 확인 할 수 있다.
+  - Up : 실행중인 상태
+  - Exited : 정지된 상태
+
+## 컨테이너 삭제
+
+rm 명령어를 이용해서 도커를 삭제한다. 한 번 삭제한 도커는 다시 살릴 수 없다.
+
+```bash
+docker rm sleepy_easley
+```
+
+```bash
+root@ip-172-31-46-94:/home/ubuntu# docker ps -a
+CONTAINER ID   IMAGE          COMMAND       CREATED      STATUS                    PORTS     NAMES
+39469faf121c   centos:7       "/bin/bash"   6 days ago   Up 6 days                           mycontainer
+3c64614582c3   ubuntu:14.04   "/bin/bash"   6 days ago   Up 6 days                           sleepy_easley
+7f62c24d0fb7   ubuntu:14.04   "/bin/bash"   6 days ago   Exited (127) 6 days ago             gallant_rosalind
+root@ip-172-31-46-94:/home/ubuntu# docker rm sleepy_easley
+Error response from daemon: You cannot remove a running container 3c64614582c35e908a1e13d2092eada25236d655b92678b47f55c57e0a5602e0. Stop the container before attempting removal or force remove
+root@ip-172-31-46-94:/home/ubuntu# docker ps -a
+CONTAINER ID   IMAGE          COMMAND       CREATED      STATUS                    PORTS     NAMES
+39469faf121c   centos:7       "/bin/bash"   6 days ago   Up 6 days                           mycontainer
+3c64614582c3   ubuntu:14.04   "/bin/bash"   6 days ago   Up 6 days                           sleepy_easley
+7f62c24d0fb7   ubuntu:14.04   "/bin/bash"   6 days ago   Exited (127) 6 days ago             gallant_rosalind
+```
+
+위와 같이 도커가 실행중인(Up) 상태라면  바로 삭제 할 수 없고, `Error response from daemon: You cannot remove a running container 3c64614582c35e908a1e13d2092eada25236d655b92678b47f55c57e0a5602e0. Stop the container before attempting removal or force remove` 에러를 받는다.
+
+이처럼 실행중인 도커를 바로 삭제하고자 하면 `-f` 옵션을 주어 컨테이너 삭제를 강제할 수 있다.
+
+```bash
+docker rm -f sleepy_easly
+```
+
+```bash
+root@ip-172-31-46-94:/home/ubuntu# docker rm -f sleepy_easley
+sleepy_easley
+root@ip-172-31-46-94:/home/ubuntu# docker ps -a
+CONTAINER ID   IMAGE          COMMAND       CREATED      STATUS                    PORTS     NAMES
+39469faf121c   centos:7       "/bin/bash"   6 days ago   Up 6 days                           mycontainer
+7f62c24d0fb7   ubuntu:14.04   "/bin/bash"   6 days ago   Exited (127) 6 days ago             gallant_rosalind
+```
+
+또는 `stop` 명령을 이용해서 docker 를 정지시킨 후 지울 수 있다.
+
+```bash
+root@ip-172-31-46-94:/home/ubuntu# docker ps -a
+CONTAINER ID   IMAGE          COMMAND       CREATED      STATUS                    PORTS     NAMES
+39469faf121c   centos:7       "/bin/bash"   6 days ago   Up 6 days                           mycontainer
+7f62c24d0fb7   ubuntu:14.04   "/bin/bash"   6 days ago   Exited (127) 6 days ago             gallant_rosalind
+root@ip-172-31-46-94:/home/ubuntu#
+root@ip-172-31-46-94:/home/ubuntu#
+root@ip-172-31-46-94:/home/ubuntu# docker ps -a
+CONTAINER ID   IMAGE          COMMAND       CREATED      STATUS                    PORTS     NAMES
+39469faf121c   centos:7       "/bin/bash"   6 days ago   Up 6 days                           mycontainer
+7f62c24d0fb7   ubuntu:14.04   "/bin/bash"   6 days ago   Exited (127) 6 days ago             gallant_rosalind
+root@ip-172-31-46-94:/home/ubuntu# docker stop mycontainer
+mycontainer
+root@ip-172-31-46-94:/home/ubuntu# docker ps -a
+CONTAINER ID   IMAGE          COMMAND       CREATED      STATUS                       PORTS     NAMES
+39469faf121c   centos:7       "/bin/bash"   6 days ago   Exited (137) 8 seconds ago             mycontainer
+7f62c24d0fb7   ubuntu:14.04   "/bin/bash"   6 days ago   Exited (127) 6 days ago                gallant_rosalind
+root@ip-172-31-46-94:/home/ubuntu# docker rm mycontainer
+mycontainer
+root@ip-172-31-46-94:/home/ubuntu# docker ps -a
+CONTAINER ID   IMAGE          COMMAND       CREATED      STATUS                    PORTS     NAMES
+7f62c24d0fb7   ubuntu:14.04   "/bin/bash"   6 days ago   Exited (127) 6 days ago             gallant_rosalind
+```
+
+전체 docker 목록을 삭제하고 싶으면 `prune` 명령어를 사용하면 된다.
+
+```bash
+root@ip-172-31-46-94:/home/ubuntu# docker container prune
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+7f62c24d0fb71ec79d375ce228d167ed12d26d2d285982070c74526800628665
+
+Total reclaimed space: 13B
+root@ip-172-31-46-94:/home/ubuntu# docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+```
+
+
+
 
 
