@@ -1,7 +1,3 @@
----
-
----
-
 layout: post
 title:  "Python WHL 파일이란"
 date:   2023-03-16 00:16:26 +0900
