@@ -2,7 +2,7 @@
 layout: post
 title:  "자동 포매팅 - 파이썬 클린코드"
 date:   2023-04-18 00:16:26 +0900
-related_posts: /dev/python/_posts/
+related_posts: /dev/python/_posts/.
 categories: python basic cleancode
 ---
 
