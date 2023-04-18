@@ -6,83 +6,87 @@ related_posts: /dev/python/_posts/.
 categories: python basic cleancode
 ---
 
-> 터닝포인트 , 유지보수가 쉬운 파이썬 코드를 만드는 비결 - 파이썬 클린코드 2nd Edition 을 기반으로 합니다.
->
-> ✔ [예제코드 다운로드 링크](https://github.com/PacktPublishing/Clean-Code-in-Python-Second-Edition)
->
-> - 본인의 python 환경에서 git 소스를 clone해 줍니다.
->
-> ```bash
-> root@ip-172-31-46-94:/home/ubuntu# git clone https://github.com/PacktPublishing/Clean-Code-in-Python-Second-Edition.git
-> ```
->
-> ## 클린코드란
->
-> > 다른 엔지니어가 코드를 읽고 유지 관리할 수 있는 코드
-> >
-> > 품질 좋은 소프트웨어를 개발하고, 견고하고 유지보수가 쉬운 시트메을 만들고, 기술 부채를 피하는 것
+- 코딩 컨벤션 등을 만들어두어도 강제하지 않는다면 추후 의미가 퇴색된다. 도구를 사용하여 표준 준수 여부를 확인하는 것 외에 자동으로 코드 형식을 지정하게 하는 것이 자동 포매팅이다.
 
-# 도구설정
+- 종류
 
-> 반복적인 확인 작업을 줄이기 위해 코드 검사를 자동으로 실행하는 기본 도구
+  - **flake8**
 
-## 데이터 타입 일관성 검사
+    - PEP-8 준수여부 검사
+    - PEP-8 준수 코드로 자동 변환
+    - 옵션을 통한 프로젝트 레벨 수정 가능
 
-- 타입 검사 도구가 유용하게 쓰이기 위해선 어노테이션을 정확하게 작성해야 한다(오탐방지)
+  - **black**
 
-### mypy
+    - [링크](https://github.com/psf/black)
 
-- [mypy Link](https://github.com/python/mypy)
-- 정적 타입 검증 도구
-- 프로젝트에서 사용되는 모든 파일에 대해서 데이터 타입의 유효성을 검사한다.
+    - 라인 길이 제외와 같은 옵션은 허용하지 않으면서 고유하고 결정적인 방식으로 코드를 지정
 
-- mypy 설치
+    - 부분적인 포매팅은 지원하지 않고 파일을 완벽하게 포매팅 한다.
 
-  ```bash
-  pip install mypy
-  ```
+      - example 
 
-- mypy 실행
+        - 따옴표는 항상 큰따옴표만 사용
+        - 파라미터의 순서는 항상 동일할 것
 
-  ```bash
-  mypy {파일명}
-  ```
+        😲 **black 왜 좋은데?**
 
-  - mypy를 설치하고 실행하면 의심이 되는 오류들을 보고한다. 
+        - 엄격하지만 코드의 차이를 최소화 할 수 있는 유일한 방법
+        - 실제 변경사항이 있는 경우에만 PR(Pull Request)이 생성
+        - PEP-8 보다 제약은 많이 생기지만 문제의 핵심에 보다 집중 가능
 
-- 오탐일 경우 ignore 옵션으로 무시하게 할 수 있다.
+        🙄 **PEP-8이랑 뭐가 다른데?**
 
-  ```bash
-  type_to_ignore = "something" #type: ignore
-  ```
+        - PEP-8 은 허용하나, black 은 아래의 코드를 허용 안 함
 
-### ✔ pytype 과 mytype 차이점
+          ```python
+          def my_function(name):
+              """
+              >>> my_function('black')
+              'received Black'
+              """
+              return 'received {0}'.format(name.title())
+          ```
 
-- pytype에서는 최종 결과가 선언된 유형을 준수하면 문제로 간주하지 않으나, mypy는 감지한다
+          - black 검사 실행
 
-  example
+            ```python
+            black -l 79.py
+            ```
 
-  ```python
-  from typing import List
-  def get_list()-> List[str]:
-      lst =["PyCon"]
-      lst.append(2022) # 숫자형을 입력하고 있기 때문에 mypy에서는 오류이지만, pytype 에서는 오류가 아니다
-      return [str(x) for x in lst]
-  ```
+          - black 실행 결과
 
-  
+            ```python
+            def my_function(name):
+                """
+                >>> my_function('black')
+                'received Black'
+                """
+                return "received {0}".format(name.title())
+            ```
 
-### pylint
+      - black 검사만 하길 원할 경우 `--check` 옵션을 주고 실행
 
-- 데이터 타입을 검사하는 것 외에도 다른 도구를 사용하여 보다 일반적인 유형의 품질 검사를 하는 것이 가능하나, PEP8 도 일반적인 코드 스타일이나 구조에 관한 것을 검사할 뿐 모든 메서드, 클래스, 모듈에 docstring 을 강제하지는 않는 등 제한적인 검증만 진행한다.
-- 반면, 추가적인 검증이 가능한 도구 중 하나가 바로 `pylint` 다
-- 가장 엄격한 수준의 검증을 하는 도구이며 기타 다른 여러 기능들도 포함하고 있다.
+        
 
-#### 설치
+        # 참고
 
-```bash
-pip install pylint
-```
-
-
-
+        ---
+        
+        터닝포인트 , 유지보수가 쉬운 파이썬 코드를 만드는 비결 - 파이썬 클린코드 2nd Edition 을 기반으로 합니다.
+        
+        ✔ [예제코드 다운로드 링크](https://github.com/PacktPublishing/Clean-Code-in-Python-Second-Edition)
+        
+        - 본인의 python 환경에서 git 소스를 clone해 줍니다.
+        
+        ```bash
+        root@ip-172-31-46-94:/home/ubuntu# git clone https://github.com/PacktPublishing/Clean-Code-in-Python-Second-Edition.git
+        ```
+        
+        ## 클린코드란
+        
+        > 다른 엔지니어가 코드를 읽고 유지 관리할 수 있는 코드
+        >
+        > 품질 좋은 소프트웨어를 개발하고, 견고하고 유지보수가 쉬운 시트메을 만들고, 기술 부채를 피하는 것
+        
+        

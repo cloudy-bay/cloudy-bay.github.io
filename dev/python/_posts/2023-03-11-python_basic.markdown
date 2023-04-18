@@ -22,7 +22,7 @@ categories: python basic
 
   - 조건문이 아닌 경우 실행문을 실행시킨다
 
-  - ```python
+    ```python
     if not a_condition:
         block_of_code_to_execute_if_condition_is_false
     ```
@@ -39,12 +39,12 @@ categories: python basic
 
   - ex
 
-    - ```python
-      if not job_description:
-      	job description = os.path.basename(sub_task['text'])
-      ```
+    ```python
+    if not job_description:
+    	job description = os.path.basename(sub_task['text'])
+    ```
 
-      job_description 이 비어있으면, 아래를 수행해라
+    - job_description 이 비어있으면, 아래를 수행해라
 
 ## File
 
@@ -52,10 +52,10 @@ categories: python basic
 
 - open
 
-  - ```python
-    f = open("새파일.txt",'w')
-    f.close()
-    ```
+  ```python
+  f = open("새파일.txt",'w')
+  f.close()
+  ```
 
   - open 함수는 다음과 같이 "파일 이름"과 "파일 열기 모드"를 입력값으로 받고 결괏값으로 파일 객체를 리턴한다.
 

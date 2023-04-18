@@ -6,24 +6,6 @@ related_posts: /dev/python/_posts/2023-04-08-cleancode_python1.md
 categories: python basic cleancode
 ---
 
-> 터닝포인트 , 유지보수가 쉬운 파이썬 코드를 만드는 비결 - 파이썬 클린코드 2nd Edition 을 기반으로 합니다.
->
-> ✔ [예제코드 다운로드 링크](https://github.com/PacktPublishing/Clean-Code-in-Python-Second-Edition)
->
-> - 본인의 python 환경에서 git 소스를 clone해 줍니다.
->
-> ```bash
-> root@ip-172-31-46-94:/home/ubuntu# git clone https://github.com/PacktPublishing/Clean-Code-in-Python-Second-Edition.git
-> ```
->
-> ## 클린코드란
->
-> > 다른 엔지니어가 코드를 읽고 유지 관리할 수 있는 코드
-> >
-> > 품질 좋은 소프트웨어를 개발하고, 견고하고 유지보수가 쉬운 시트메을 만들고, 기술 부채를 피하는 것
-
-# 문서화 (Documentation)
-
 > 파이썬은 변수의 타입이 동적이어 변수나 객체의 값이 무엇인지 잃어버리기 쉽기 때문에 문서화는 중요한 부분이다.
 
 ## 코드 주석(Code comments)
@@ -69,5 +51,22 @@ update(...)
 
 - 어노테이션을 사용하면 `__annotations__` 이라는 특수한 속성이 생긴다. 이 속성은 어노테이션의 이름과 값을 매핑한 사전 타입의 값이다.
 
+# 참고
 
+---
 
+터닝포인트 , 유지보수가 쉬운 파이썬 코드를 만드는 비결 - 파이썬 클린코드 2nd Edition 을 기반으로 합니다.
+
+✔ [예제코드 다운로드 링크](https://github.com/PacktPublishing/Clean-Code-in-Python-Second-Edition)
+
+- 본인의 python 환경에서 git 소스를 clone해 줍니다.
+
+```bash
+root@ip-172-31-46-94:/home/ubuntu# git clone https://github.com/PacktPublishing/Clean-Code-in-Python-Second-Edition.git
+```
+
+## 클린코드란
+
+> 다른 엔지니어가 코드를 읽고 유지 관리할 수 있는 코드
+>
+> 품질 좋은 소프트웨어를 개발하고, 견고하고 유지보수가 쉬운 시트메을 만들고, 기술 부채를 피하는 것
