@@ -2,7 +2,7 @@
 layout: post
 title:  "PEP-8 , Style Guide for Python Code"
 date:   2023-04-08 00:16:26 +0900
-related_posts: /dev/python/_posts/2023-04-08-cleancode_python2.md
+related_posts: /dev/python/_posts/2023-04-08-cleancode_python2.md /dev/python/_posts/2023-04-08-cleancode_python3.md /dev/python/_posts/2023-04-08-cleancode_python4.md
 categories: python basic cleancode
 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "자동 포매팅 - 파이썬 클린코드"
 date:   2023-04-18 00:16:26 +0900
-related_posts: /dev/python/_posts/.
+related_posts: /dev/python/_posts/2023-04-08-cleancode_python1.md /dev/python/_posts/2023-04-08-cleancode_python2.md /dev/python/_posts/2023-04-08-cleancode_python4.md
 categories: python basic cleancode
 ---
 
@@ -68,9 +68,7 @@ categories: python basic cleancode
   - black 검사만 하길 원할 경우 `--check` 옵션을 주고 실행
 
 
-## yapf
 
-- 
 
 # 참고
 

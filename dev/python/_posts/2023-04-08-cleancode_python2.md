@@ -2,7 +2,7 @@
 layout: post
 title:  "문서화 (Documentation) - 파이썬 클린코드"
 date:   2023-04-08 00:16:26 +0900
-related_posts: /dev/python/_posts/2023-04-08-cleancode_python1.md
+related_posts: /dev/python/_posts/2023-04-08-cleancode_python1.md /dev/python/_posts/2023-04-08-cleancode_python3.md /dev/python/_posts/2023-04-08-cleancode_python4.md
 categories: python basic cleancode
 ---
 
